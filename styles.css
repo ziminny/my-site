@@ -26,11 +26,6 @@ main {
 }
 
 
-
-
-
-
-
 main.home {
     display: flex;
     flex-direction: column;
