@@ -1,0 +1,194 @@
+.home-web__absolute-div-right {
+    position: absolute;
+    right: 0;
+ 
+    
+}
+
+.home-web__absolute-div-right > .base {
+    position: relative;
+    right: 100px;
+  
+    width: 30px;
+    background-color: #000;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.3) ;
+   
+    animation: baseMain 1.5s ease forwards;
+}
+
+.home-web__absolute-div-right > .base > .card {
+    position: relative;
+    right: 100px;
+  
+    width: 30px;
+    background-color: red;
+ 
+    animation: baseMain 1.5s ease forwards;
+}
+
+@keyframes baseMain {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 460px;  
+    }
+}
+
+.home-web__absolute-div-right > .base > .home, 
+.home-web__absolute-div-right > .base >.contact , 
+.home-web__absolute-div-right > .base >.education, 
+.home-web__absolute-div-right > .base >.projects , 
+.home-web__absolute-div-right > .base >.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.home-web__absolute-div-right > .base > 
+.home:hover::after, 
+.home-web__absolute-div-right > .base >.contact:hover::after ,
+.home-web__absolute-div-right > .base >.education:hover::after, 
+.home-web__absolute-div-right > .base >.projects:hover::after , 
+.home-web__absolute-div-right > .base >.about:hover::after {
+    content: '';
+    
+    position: absolute;
+    background-color: #EA2862;
+    left: 0;
+    top: 0;
+    width: 100%;
+    animation: afterBase 0.5s forwards;
+    z-index: -1;
+    height: 100%;
+}
+
+@keyframes afterBase {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+.home-web__absolute-div-right > .base > .home {
+    position: relative;
+    right: 70px;
+    
+    height: 55px;
+    width: 110px;
+    background-color: #000;
+    transform: rotate(11deg);
+    color: #fff;
+    font-size: 16px;
+    animation: home 2.3s ease forwards  ;
+
+}
+
+
+
+
+
+@keyframes home {
+    0% {
+        top: -150px;
+    }
+    100% {
+        top: 70px;
+    }
+}
+
+.home-web__absolute-div-right > .base > .projects {
+    position: relative;
+    right: 20px;
+    top: 100px;
+    height: 55px;
+    width: 110px;
+    background-color: #000;
+    transform: rotate(11deg);
+    color: #fff;
+    animation: projects 2.3s ease forwards  ;
+}
+
+@keyframes projects {
+    0% {
+        top: -150px;
+    }
+    100% {
+        top: 100px;
+    }
+}
+
+.home-web__absolute-div-right > .base > .education {
+    position: relative;
+    right: 40px;
+    top: 130px;
+    height: 55px;
+    width: 110px;
+    background-color: #000;
+    color: #fff;
+    z-index: 1;
+    animation: education 2.3s ease forwards  ;
+}
+
+@keyframes education {
+    0% {
+        top: -150px;
+    }
+    100% {
+        top: 130px;
+    }
+}
+
+.home-web__absolute-div-right > .base > .contact {
+    position: relative;
+    right: 20px;
+    top: 150px;
+    height: 55px;
+    width: 110px;
+    background-color: #000;
+    transform: rotate(-11deg);
+    color: #fff;
+    animation: contact 2.3s ease forwards  ;
+}
+
+@keyframes contact {
+    0% {
+        top: -200px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+
+.home-web__absolute-div-right > .base > .about {
+    position: relative;
+    right: 70px;
+    top: 175px;
+    height: 55px;
+    width: 110px;
+    background-color: #000;
+    transform: rotate(-11deg);
+    color: #fff;
+    animation: about 2.3s ease forwards  ;
+}
+
+@keyframes about {
+    0% {
+        top: -200px;
+    }
+    100% {
+        top: 175px;
+    }
+}
+
+.home-web__absolute-div-right > .base > .active-button {
+ 
+    background-color: #EA2862;
+ 
+
+}
+

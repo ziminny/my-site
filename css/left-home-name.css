@@ -1,0 +1,30 @@
+.home-web__absolute-div-left {
+    background-image: linear-gradient(to right , #41C4FD,#41C4FD);
+    width: 305px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: rotate(-11deg);
+    animation: left-name-container .6s ease forwards;
+    top: 5px;
+    box-shadow: 1px 24px 48px rgba(0, 0, 0, 0.3),3px 24px 64px rgba(0, 0, 0, 0.1);
+ 
+
+}
+
+@keyframes left-name-container {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: -15px;
+    }
+}
+
+.home-web__absolute-div-left  p {
+    font-weight: 400;
+    color: #fff;
+    font-size: 24px;
+}
