@@ -41,6 +41,12 @@
     }
 }
 
+@media (max-width:1388px) {
+    .home-web__absolute_current-page-bottom  {
+        display: none;
+    }
+}
+
 .home-web__absolute_current-page-bottom  > .base > .card-container  {
     
     width: 600px;
