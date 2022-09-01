@@ -45,7 +45,7 @@ main.home {
 }
 
 main.home > h1 {
-    
+    color: #41C4FD;
     font-size: 100px;
     font-weight: 500;
 }
